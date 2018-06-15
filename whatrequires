@@ -1,1 +1,18 @@
 # This file contains recursive sources that require this package
+R-DendSer
+R-ade4
+R-analogue
+R-bipartite
+R-clue
+R-dendextend
+R-dtw
+R-fpc
+R-gmodels
+R-mvoutlier
+R-pdfCluster
+R-prabclus
+R-rms
+R-robCompositions
+R-seriation
+R-spdep
+R-vegan
