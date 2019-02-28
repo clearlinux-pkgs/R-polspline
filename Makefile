@@ -1,5 +1,5 @@
 PKG_NAME := R-polspline
-URL = https://cran.r-project.org/src/contrib/polspline_1.1.13.tar.gz
+URL = https://cran.r-project.org/src/contrib/polspline_1.1.14.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
