@@ -4,7 +4,7 @@
 #
 Name     : R-polspline
 Version  : 1.1.16
-Release  : 25
+Release  : 26
 URL      : https://cran.r-project.org/src/contrib/polspline_1.1.16.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/polspline_1.1.16.tar.gz
 Summary  : Polynomial Spline Routines
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-polspline-lib = %{version}-%{release}
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 hazard regression, hazard estimation with flexible tails, logspline,
@@ -33,10 +34,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1570382642
+export SOURCE_DATE_EPOCH=1571876372
 
 %install
-export SOURCE_DATE_EPOCH=1570382642
+export SOURCE_DATE_EPOCH=1571876372
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
