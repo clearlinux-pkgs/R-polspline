@@ -4,7 +4,7 @@
 #
 Name     : R-polspline
 Version  : 1.1.16
-Release  : 26
+Release  : 27
 URL      : https://cran.r-project.org/src/contrib/polspline_1.1.16.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/polspline_1.1.16.tar.gz
 Summary  : Polynomial Spline Routines
