@@ -4,7 +4,7 @@
 #
 Name     : R-polspline
 Version  : 1.1.20
-Release  : 48
+Release  : 49
 URL      : https://cran.r-project.org/src/contrib/polspline_1.1.20.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/polspline_1.1.20.tar.gz
 Summary  : Polynomial Spline Routines
@@ -34,10 +34,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1650901487
+export SOURCE_DATE_EPOCH=1650933848
 
 %install
-export SOURCE_DATE_EPOCH=1650901487
+export SOURCE_DATE_EPOCH=1650933848
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
